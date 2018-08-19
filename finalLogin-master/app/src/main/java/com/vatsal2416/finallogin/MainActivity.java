@@ -42,8 +42,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btnLogin = findViewById(R.id.btnLogin);
-        btnForgotPassword = findViewById(R.id.btnForgotPassword);
-        btnsignup = findViewById(R.id.btnsignup);
+      //  btnForgotPassword = findViewById(R.id.btnForgotPassword);
+        //btnsignup = findViewById(R.id.btnsignup);
         mAuth = FirebaseAuth.getInstance();
 
         //onClickListener
